@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Clonar el código fuente de GitHub
-                git branch: 'main', url: 'https://github.com/claudiaPenaR/proyecto-simple.git'
+                git branch: 'main', url: 'https://github.com/claudiaPenaR/MyConstructionWeb.git'
             }
         }
         stage('Build') {
